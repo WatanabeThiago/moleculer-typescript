@@ -1,0 +1,25 @@
+{
+  "name": "moleculer-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --build tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node ./node_modules/moleculer/bin/moleculer-runner.js --hot --config moleculer.config.ts *.service.ts",
+    "start": "moleculer-runner"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.11",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "moleculer": "^0.14.18",
+    "moleculer-web": "^0.10.3"
+  }
+}
